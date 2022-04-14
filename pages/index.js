@@ -2,6 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+//npx create-next-app "Name"   //to create
+//npx yarn dev   //only the first time
+//npm run dev   //from then on
+
 export default function Home() {
   return (
     <div className={styles.container}>
